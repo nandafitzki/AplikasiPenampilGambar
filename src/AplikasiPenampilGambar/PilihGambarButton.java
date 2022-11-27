@@ -77,24 +77,22 @@ public class PilihGambarButton extends javax.swing.JFrame {
         imagePanel.setLayout(new java.awt.CardLayout());
 
         SebuahCicipanSurgawiLB.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        SebuahCicipanSurgawiLB.setIcon(new javax.swing.ImageIcon("D:\\Kuliah\\Uniska\\Semester 5\\PEMROGRAMAN BERBASIS OBJEK 2\\Praktek\\AplikasiPenampilGambar\\AplikasiPenampilGambar\\Gambar\\cicipan.jpg")); // NOI18N
+        SebuahCicipanSurgawiLB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AplikasiPenampilGambar/cicipan.jpg"))); // NOI18N
         imagePanel.add(SebuahCicipanSurgawiLB, "0");
 
         InterstellarLB.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        InterstellarLB.setIcon(new javax.swing.ImageIcon("D:\\Kuliah\\Uniska\\Semester 5\\PEMROGRAMAN BERBASIS OBJEK 2\\Praktek\\AplikasiPenampilGambar\\AplikasiPenampilGambar\\Gambar\\interstelar.jpg")); // NOI18N
+        InterstellarLB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AplikasiPenampilGambar/interstelar.jpg"))); // NOI18N
         imagePanel.add(InterstellarLB, "1");
 
         KafirLB.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        KafirLB.setIcon(new javax.swing.ImageIcon("D:\\Kuliah\\Uniska\\Semester 5\\PEMROGRAMAN BERBASIS OBJEK 2\\Praktek\\AplikasiPenampilGambar\\AplikasiPenampilGambar\\Gambar\\kafir.jpg")); // NOI18N
+        KafirLB.setIcon(new javax.swing.ImageIcon(getClass().getResource("/AplikasiPenampilGambar/kafir.jpg"))); // NOI18N
         imagePanel.add(KafirLB, "2");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addComponent(imagePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 942, Short.MAX_VALUE)
-                .addGap(0, 0, 0))
+            .addComponent(imagePanel, javax.swing.GroupLayout.DEFAULT_SIZE, 942, Short.MAX_VALUE)
             .addComponent(buttonPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(

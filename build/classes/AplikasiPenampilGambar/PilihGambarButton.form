@@ -33,10 +33,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Component id="imagePanel" pref="942" max="32767" attributes="0"/>
-                  <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
-              </Group>
+              <Component id="imagePanel" alignment="0" pref="942" max="32767" attributes="0"/>
               <Component id="buttonPanel" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
@@ -97,7 +94,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Kuliah\Uniska\Semester 5\PEMROGRAMAN BERBASIS OBJEK 2\Praktek\AplikasiPenampilGambar\AplikasiPenampilGambar\Gambar\cicipan.jpg"/>
+                  <Image iconType="3" name="/AplikasiPenampilGambar/cicipan.jpg"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -110,7 +107,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Kuliah\Uniska\Semester 5\PEMROGRAMAN BERBASIS OBJEK 2\Praktek\AplikasiPenampilGambar\AplikasiPenampilGambar\Gambar\interstelar.jpg"/>
+                  <Image iconType="3" name="/AplikasiPenampilGambar/interstelar.jpg"/>
                 </Property>
               </Properties>
               <Constraints>
@@ -123,7 +120,7 @@
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\Kuliah\Uniska\Semester 5\PEMROGRAMAN BERBASIS OBJEK 2\Praktek\AplikasiPenampilGambar\AplikasiPenampilGambar\Gambar\kafir.jpg"/>
+                  <Image iconType="3" name="/AplikasiPenampilGambar/kafir.jpg"/>
                 </Property>
               </Properties>
               <Constraints>
